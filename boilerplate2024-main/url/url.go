@@ -1,7 +1,7 @@
 package url
 
 import (
-	"github.com/qintharganteng/package/controller"
+	"github.com/qintharganteng/package/boilerplate2024-main/controller"
 
 	"github.com/gofiber/fiber/v2"
 )

@@ -3,12 +3,12 @@ package main
 import (
 	"log"
 
-	"github.com/qintharganteng/package/config"
+	"github.com/qintharganteng/package/boilerplate2024-main/config"
 
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 
-	"github.com/qinthargantenf/package/url"
+	"github.com/qintharganteng/package/boilerplate2024-main/url"
 
 	"github.com/gofiber/fiber/v2"
 
