@@ -18,3 +18,4 @@ func Web(page *fiber.App) {
 	page.Options("/", controller.Sink)
 
 }
+//dwdwwdwdw
