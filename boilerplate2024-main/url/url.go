@@ -17,5 +17,7 @@ func Web(page *fiber.App) {
 	page.Delete("/", controller.Sink)
 	page.Options("/", controller.Sink)
 
+	page.Get("/checkip", controller.Homepage) 
+	page.Get("/perpus", controller.GetAllAnggotaPerpustakaan)
 }
 //dwdwwdwdw

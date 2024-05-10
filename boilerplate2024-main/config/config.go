@@ -1,6 +1,9 @@
 package config
 
-import "github.com/gofiber/fiber/v2"
+import (
+	"github.com/gofiber/fiber/v2"
+)
+
 
 var Iteung = fiber.Config{
 	Prefork:       false,
