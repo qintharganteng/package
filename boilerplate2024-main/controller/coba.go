@@ -12,6 +12,6 @@ func Homepage(c *fiber.Ctx) error {
 }
 
 func GetAllAnggotaPerpustakaan(c *fiber.Ctx) error {
-	anggota := cek.GetAllAnggotaPerpustakaan()
-	return c.JSON(anggota)
+	ps := cek.GetAllAnggotaPerpustakaan()
+	return c.JSON(ps)
 }
